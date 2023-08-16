@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# URL to scrape
+url="https://www.willhaben.at/iad/kaufen-und-verkaufen/d/gebrauchte-fahrraeder-701255083"
+
+# Function to display an error message and exit
+display_error() {
+    echo "Error: $1"
+    exit 1
+}
+
+# Send an HTTP GET request to the URL and save the response to a file
+curl -s "$url" > webpage.html
+
+# Check if the request was successful
+if [ $? -eq 0 ]; then
+    # Extract the price using grep and awk
+    price=$(grep -oP '<span data-testid="contact-box-price-box-price-value"[^>]*>\K[^<]+' webpage.html )
+    
+    # Check if the price was found
+    if [ -n "$price" ]; then
+        echo "Price: € $price"
+    else
+        echo "Price not found on the page."
+    fi
+else
+    display_error "Failed to retrieve the webpage."
+fi
+
+# Clean up by removing the downloaded HTML file
+rm -f webpage.html
+

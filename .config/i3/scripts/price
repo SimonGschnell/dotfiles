@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# URL to scrape
+url="https://account.lenovo.com/at/de/account/order/detail.html?ecommerceId=1299511635"
+
+# Function to display an error message and exit
+display_error() {
+    echo "Error: $1"
+    exit 1
+}
+
+# Send an HTTP GET request to the URL and save the response to a file
+curl -s "$url" > webpage.html
+
+# Check if the request was successful
+if [ $? -eq 0 ]; then
+    # Search for the specified tag using grep
+    tag_content=$(grep -oP '<div[^>]*class="order-status"[^>]*>.*?</div>' webpage.html | grep -oP '>\K[^<]*')
+    
+    # Check if the tag content was found
+    if [ -n "$tag_content" ]; then
+        echo "Tag content: $tag_content"
+    else
+        echo "Tag not found on the page."
+    fi
+else
+    display_error "Failed to retrieve the webpage."
+fi
+
+# Clean up by removing the downloaded HTML file
+rm -f webpage.html
+
