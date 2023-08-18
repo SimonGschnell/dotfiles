@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "17b2afd9a168d0ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a8f3b82fc2e062b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d67ac9f25c11cf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Literature Notes/Docker/Persisting storage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7d7b1b0ab2b5d3af",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3aeaa589e32a42a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37ab1127c73989ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2912357d76082416",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#hashtag",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "89a4765f7b725d47",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "837a61ca1336a716",
+    "type": "split",
+    "children": [
+      {
+        "id": "86270ee25da1aac3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8299161a380b9c23",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Literature Notes/Docker/Persisting storage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "768a4d854d06fe62",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Literature Notes/Docker/Persisting storage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a246a5add92b0c3c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d8be3de94f3bf562",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Literature Notes/Docker/Persisting storage.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4d67ac9f25c11cf4",
+  "lastOpenFiles": [
+    "Daily Notes/25-07 23.md",
+    "Literature Notes/Docker/Persisting storage.md",
+    "Daily Notes/24-07 23.md",
+    "Literature Notes/Obsidian commands.md",
+    "Daily Notes/23-07 23.md",
+    "Daily Notes/06-08 23.md",
+    "Daily Notes/31-07 23.md",
+    "Literature Notes/Rust/tokio.md",
+    "Daily Notes/11-Friday-August (23).md",
+    "Literature Notes/Rust/Rust.md",
+    "Literature Notes/Rust",
+    "Rust/tokio.md",
+    "Rust",
+    "Daily Notes/(23) Sunday-06-August.md",
+    "Daily Notes/09-Wednesday-August (23).md",
+    "Daily Notes/(23) Wednesday-09-August.md",
+    "Literature Notes/how to make a bootable USB-stick on linux.md",
+    "Literature Notes/CLI/Zsh.md",
+    "Literature Notes/CLI/Warp.md",
+    "CLI/Zsh.md",
+    "CLI",
+    "Literature Notes/CLI",
+    "Daily Notes/04-08 23.md",
+    "attachments/Pasted image 20230804112130.png",
+    "attachments/Pasted image 20230804111236.png",
+    "Daily Notes/30-07 23.md",
+    "Literature Notes/redis.md",
+    "redis.md",
+    "Literature Notes/Docker/Docker compose.md",
+    "Daily Notes/27-07 23.md",
+    "Daily Notes/26-07 23.md",
+    "Literature Notes/Docker/Dockerfiles.md",
+    "Literature Notes/Docker",
+    "Permanent Notes",
+    "Literature Notes",
+    "attachments/ali.png",
+    "attachments",
+    "board.png",
+    "vim/ali.png",
+    "ali.png",
+    "Literature Notes/vim",
+    "Daily Notes/23"
+  ]
+}
