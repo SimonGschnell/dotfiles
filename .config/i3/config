@@ -525,7 +525,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 # kill all running polybar instances
 
-exec killall polybar
+exec_always killall polybar
 
 # run polybar
 
