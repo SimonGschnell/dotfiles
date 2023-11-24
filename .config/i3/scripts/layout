@@ -1,0 +1,17 @@
+#!/bin/bash
+
+query=`setxkbmap -query | grep layout`
+lang=${query: -2}
+case $lang in
+	"us")
+		setxkbmap at
+		echo "at"
+		;;
+	"at")
+		setxkbmap us
+		echo "us"
+		;;
+	*)
+		echo "error"
+		;;
+esac
